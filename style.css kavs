@@ -1,0 +1,85 @@
+body { 
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+    background-color: white; 
+    color: #333; 
+} 
+nav { 
+    background-color: #0b4f9c; 
+    color: white; 
+    padding: 15px 50px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+ nav h2 { 
+    margin: 0; 
+
+} 
+nav ul {
+    list-style-type: none; 
+    display: flex; 
+    gap: 25px; 
+}
+ nav a { color: white; 
+    text-decoration: none; 
+}
+ nav a:hover { 
+    
+    color: #b9dcff; 
+}
+ 
+ .home{
+    ackground-color: #eaf4ff; 
+    text-align: center; 
+    padding: 100px 20px; 
+} 
+.home h1 {
+     color: #0b4f9c; 
+     font-size: 40px; 
+    }
+    .home p {
+         font-size: 20px; 
+        }
+       section { 
+        padding: 60px 10%; 
+    } section h1 { 
+        color: #0b4f9c; 
+        text-align: center; 
+        margin-bottom: 30px; 
+    } 
+    section p { 
+        font-size: 18px;
+         line-height: 1.7; 
+        }
+        .hobbies { 
+            display: flex; 
+            justify-content: center; 
+            gap: 25px; 
+        }
+         .card { 
+            width: 30%;
+             padding: 25px;
+              background-color: #eaf4ff;
+               border: 2px solid #b9dcff;
+                border-radius: 10px;
+                 text-align: center;
+                 }
+                  .card h2 { 
+                    color: #0b4f9c;
+                     font-size: 20px;
+                     }  
+                     .academic-box, .contact-box { 
+                        background-color: #eaf4ff; 
+                        padding: 25px;
+                         max-width: 600px;
+                          margin: auto; 
+                          border-left: 5px solid #0b4f9c; 
+                        }
+                         footer {
+                             background-color: #0b4f9c; 
+                             color: white; 
+                             text-align: center; 
+                             padding: 15px; 
+                            }
+    
